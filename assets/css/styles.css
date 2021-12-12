@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-image: url(../img/background.jpg);
+  background-position: top;
+  background-repeat: repeat;
+  background-size: 150px;
+}
+header {
+  width: 100%;
+  height: 400px;
+}
+header .container__img {
+  width: 250px;
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+}
+header .container__img img {
+  width: 250px;
+  margin: auto;
+  border-radius: 50%;
+}
+.container__title {
+  margin: 15px 0 0 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content__followers {
+  background-color: rgba(216, 191, 216, 0.233);
+  border-radius: 9px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.content__followers .item {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .content {
+  width: 50%;
+  height: 60px;
+  margin: 25px 0;
+}
+.container .content a {
+  width: 100%;
+  height: 100%;
+  margin: 25px 0;
+  background-color: rgba(0, 0, 0, 0.466);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  transition: ease-in-out 0.5s;
+}
+.container .content a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.815);
+}
